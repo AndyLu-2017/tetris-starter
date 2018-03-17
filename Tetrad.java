@@ -7,7 +7,7 @@ public class Tetrad {
 
 	// Constructs a Tetrad.
 	public Tetrad(BoundedGrid<Block> grid) {
-		int type = 0;//(int)(Math.random()*7);
+		int type = (int)(Math.random()*7);
 		Color[] color = {Color.RED, Color.GRAY, Color.CYAN, 
 				Color.YELLOW, Color.MAGENTA, Color.BLUE, Color.GREEN};
 		int[][][] cord = {

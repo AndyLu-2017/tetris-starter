@@ -13,8 +13,7 @@ public class Tetris implements ArrowListener {
 	// Constructs a Tetris Game
 	public Tetris() {
 		score = 0;
-		level = 10;
-		clearCount = 99;
+		level = 1;
 		grid = new BoundedGrid<Block>(20, 10);
 		display = new BlockDisplay(grid);
 		display.setArrowListener(this);
